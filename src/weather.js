@@ -31,16 +31,18 @@ export default function SearchingForm() {
   }
 
   let form = (
-    <div className="weatherApp">
-      <h1>Weather App</h1>
-      <form onSubmit={handleSubmit}>
-        <input
-          type="search"
-          placeholder="Enter a city..."
-          onChange={updateCityName}
-        />
-        <input type="submit" value="Search" />
-      </form>
+    <div className="container">
+      <div className="weatherApp">
+        <h1>Weather App</h1>
+        <form onSubmit={handleSubmit}>
+          <input
+            type="search"
+            placeholder="Enter a city..."
+            onChange={updateCityName}
+          />
+          <input type="submit" value="Search" />
+        </form>
+      </div>
     </div>
   );
 
