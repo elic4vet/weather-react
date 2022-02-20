@@ -15,7 +15,7 @@ function App() {
               <br></br>
               <footer>
                 <a
-                  href="https://github.com/elic4vet/weather-app"
+                  href="https://github.com/elic4vet/weather-react"
                   target="blank"
                 >
                   Open-source code
